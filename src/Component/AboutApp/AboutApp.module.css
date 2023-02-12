@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutapp h2{
+text-align: center;
+}
+
+.about{
+    width: 90%;
+    max-width: 80rem;
+    border: 1px solid black;
+    margin: 4.1rem auto ;
+    padding-top: 5rem;
+    border-radius: 1rem;
+}
+
+.right{
+    background-color: rgb(51,53,69);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

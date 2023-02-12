@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+ 
+.about_main{
+     background-color: aliceblue;
+   height: 100vh;
+   width: 98.8vw;
+}
+

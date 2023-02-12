@@ -1,0 +1,23 @@
+.total{
+    width: 90%;
+    max-width: 25rem;
+    /* height: 30rem; */
+    background-color:rgb(116,122,76);
+    margin: 10rem auto;
+    padding: 2rem;
+    border:1px solid black;
+    border-radius: 4rem;
+    
+}
+
+.total button{
+    margin: 2rem;
+    background-color: rgba(255, 255, 0, 0.635);
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    border-radius: 0.8rem; 
+}
+
+.total button:hover{
+    background-color: red;
+}

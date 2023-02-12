@@ -1,0 +1,12 @@
+.show h2{
+    margin: 2rem 0 0 0;
+    color: rgb(37,39,34);
+}
+ 
+.show p{
+    color: rgb(208,233,220);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}

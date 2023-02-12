@@ -1,0 +1,27 @@
+.two section{
+    width: 65rem;
+    margin: auto;
+ }
+
+ .two button{
+    padding: 0.8rem;
+    margin: 0.4rem;
+    background-color: rgba(0, 0, 255, 0.46);
+    color: white;
+    border-radius: 0.7rem; 
+ }
+
+ .two button:hover{
+    background-color: rgba(165, 42, 42, 0.811);
+ }
+
+ .two button:focus{
+    background-color: rgba(146, 60, 29, 0.811);
+ }
+
+ .two .disabled{
+  background-color: rgba(255, 0, 0, 0.655);
+  color: white;
+  border: none;
+
+}
