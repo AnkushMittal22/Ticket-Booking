@@ -1,70 +1,7 @@
-# Getting Started with Create React App
+The goal of this assignment is to build a cinema theatre ticket booking app with the following specifications -
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You are tasked with building an app which will help a user select seats in a cinema theatre and display a time-limited summary of their selected seats.
+You have a list of seats with x rows & y columns, with these conditions - • Any of the seats can be marked as already booked to avoid two people booking the same seats. . Any of the seats can be marked disabled. This is important to customise the seating arrangement to match the exact arrangement of the cinema theatre. . Each row of seats will have their own price.
+Once the user has selected their seats, they can navigate to the next page where they will be shown a summary of the seats they chose and the total price, along with a countdown timer of a configurable number of minutes (default to 5). If they navigate back, the previously selected seats should be shown. Once the countdown has completed, if they navigate back, the selected seats should be cleared.
+The React component should be built in a way that every cinema theatre can customise the layout and row prices.
+Technology stack React 17. • TypeScript (optional, in case you only know JavaScript). Recommended libraries ☐ These aren't mandatory, but we recommend these because we like and use them at yogya.ai. • If there's a need for state, prefer very lightweight state management tools like zustand or jotai over heavy ones like Redux, MobX, etc. • Any Ul/component libraries like Tailwind, & Material UI, etc. These can help you speed up UI development. ☐ Bonus points • Correct use of React hooks.
